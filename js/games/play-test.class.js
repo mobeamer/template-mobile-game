@@ -34,7 +34,7 @@ function PlayTestGame(options)
         gameEngine.addMenu(menu);
 
         var bottomMenu = [
-            {"label":"Simple Test", "call": "play.simpleTest()" }
+            {"label":"Debug", "call": "play.showDebug()" }
             ,{"label":"Complex Test", "call": "play.complexTest()" }
            
        ];
@@ -48,6 +48,10 @@ function PlayTestGame(options)
 
     }
 
+    this.showDebug = function()
+    {
+        log.toggle();
+    }
 
     this.quickPlay = function()
     {
