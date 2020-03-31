@@ -1,0 +1,98 @@
+.tile-selector {
+    width: 42px;
+    height: 42px;
+    background: #dddddd;
+    margin: 5px;
+    display: inline-block;
+    text-align:center;
+    padding-top:5px;
+}
+
+
+
+.menu-panel {
+        text-align: center;
+        display: inline-block;
+        margin-bottom:5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #050505;
+        padding: 7px 15px;
+        background: #FFEE9B;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        border: 1px solid #949494;
+        
+    }
+    
+    
+    
+    .gameHud
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    visibility: hidden;
+}
+
+.hudLabel
+{
+    display:inline-block;
+}
+
+.hudStat
+{
+    display:inline-block;
+}
+
+.view-wrapper
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.view-header
+{
+    width: 80%;
+    border-bottom: 1px solid #BBB;
+    text-align: left;
+    margin-left: 10%;
+    height: 40px;
+    color: #888;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.gui-button-7
+{
+    visibility:hidden;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 10px;
+    position:absolute;
+    top:5px;
+    left:5px;
+    background:url('../img/gui/button-7.png');
+    width:62px;
+    height:30px;
+    padding-top:15px;
+    text-align:center;
+}
+
+
+.gui-button-8
+{
+    visibility:hidden;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 10px;
+    position:absolute;
+    top:5px;
+    left:5px;
+    background:url('../img/gui/button-8.png');
+    width:62px;
+    height:30px;
+    padding-top:15px;
+    text-align:center;
+}
+
